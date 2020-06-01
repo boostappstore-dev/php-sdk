@@ -33,8 +33,7 @@ namespace Boostapp;
  * DeliveryTypeTest Class Doc Comment
  *
  * @category    Class
- * @description 0: Distribute operations for 24 hours
- * 1: Send fast
+ * @description 0: Distribute operations for 24 hours&lt;br&gt;1: Send fast
  * @package     Boostapp
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen

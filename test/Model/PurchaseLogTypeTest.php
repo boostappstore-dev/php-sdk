@@ -33,10 +33,7 @@ namespace Boostapp;
  * PurchaseLogTypeTest Class Doc Comment
  *
  * @category    Class
- * @description It specifies the type of purchase record
- * 0: After creating a campaign
- * 1: After posting comments (Not included in the API)
- * -1: Pay back
+ * @description It specifies the type of purchase record&lt;br&gt;0: After creating a campaign&lt;br&gt;1: After posting comments (Not included in the API)&lt;br&gt;-1: Pay back
  * @package     Boostapp
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen

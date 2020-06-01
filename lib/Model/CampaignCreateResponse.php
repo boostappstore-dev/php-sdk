@@ -45,27 +45,27 @@ class CampaignCreateResponse implements ModelInterface, ArrayAccess
     const DISCRIMINATOR = null;
 
     /**
-      * The original name of the model.
-      *
-      * @var string
-      */
+     * The original name of the model.
+     *
+     * @var string
+     */
     protected static $swaggerModelName = 'CampaignCreateResponse';
 
     /**
-      * Array of property to type mappings. Used for (de)serialization
-      *
-      * @var string[]
-      */
+     * Array of property to type mappings. Used for (de)serialization
+     *
+     * @var string[]
+     */
     protected static $swaggerTypes = [
         'status_code' => 'int',
-        'details' => '\Boostapp\Model\CampaignCreateResponseDetails'
+        'details' => '\Boostapp\Model\CampaignCreateInfo'
     ];
 
     /**
-      * Array of property to format mappings. Used for (de)serialization
-      *
-      * @var string[]
-      */
+     * Array of property to format mappings. Used for (de)serialization
+     *
+     * @var string[]
+     */
     protected static $swaggerFormats = [
         'status_code' => 'int32',
         'details' => null
@@ -163,9 +163,9 @@ class CampaignCreateResponse implements ModelInterface, ArrayAccess
         return self::$swaggerModelName;
     }
 
-    
 
-    
+
+
 
     /**
      * Associative array for storing property values
@@ -237,7 +237,7 @@ class CampaignCreateResponse implements ModelInterface, ArrayAccess
     /**
      * Gets details
      *
-     * @return \Boostapp\Model\CampaignCreateResponseDetails
+     * @return \Boostapp\Model\CampaignCreateInfo
      */
     public function getDetails()
     {
@@ -247,7 +247,7 @@ class CampaignCreateResponse implements ModelInterface, ArrayAccess
     /**
      * Sets details
      *
-     * @param \Boostapp\Model\CampaignCreateResponseDetails $details details
+     * @param \Boostapp\Model\CampaignCreateInfo $details details
      *
      * @return $this
      */

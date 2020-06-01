@@ -4,7 +4,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **status_code** | **int** | Status code | [optional] 
-**details** | [**\Boostapp\Model\CampaignSummary[]**](CampaignSummary.md) |  | [optional] 
+**campaign_list** | [**\Boostapp\Model\CampaignSummary[]**](CampaignSummary.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

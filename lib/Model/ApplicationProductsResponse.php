@@ -45,27 +45,27 @@ class ApplicationProductsResponse implements ModelInterface, ArrayAccess
     const DISCRIMINATOR = null;
 
     /**
-      * The original name of the model.
-      *
-      * @var string
-      */
+     * The original name of the model.
+     *
+     * @var string
+     */
     protected static $swaggerModelName = 'ApplicationProductsResponse';
 
     /**
-      * Array of property to type mappings. Used for (de)serialization
-      *
-      * @var string[]
-      */
+     * Array of property to type mappings. Used for (de)serialization
+     *
+     * @var string[]
+     */
     protected static $swaggerTypes = [
         'status_code' => 'int',
-        'products' => '\Boostapp\Model\ProductsDictionary'
+        'products' => 'object'
     ];
 
     /**
-      * Array of property to format mappings. Used for (de)serialization
-      *
-      * @var string[]
-      */
+     * Array of property to format mappings. Used for (de)serialization
+     *
+     * @var string[]
+     */
     protected static $swaggerFormats = [
         'status_code' => 'int32',
         'products' => null
@@ -163,9 +163,9 @@ class ApplicationProductsResponse implements ModelInterface, ArrayAccess
         return self::$swaggerModelName;
     }
 
-    
 
-    
+
+
 
     /**
      * Associative array for storing property values
@@ -237,7 +237,7 @@ class ApplicationProductsResponse implements ModelInterface, ArrayAccess
     /**
      * Gets products
      *
-     * @return \Boostapp\Model\ProductsDictionary
+     * @return object
      */
     public function getProducts()
     {
@@ -247,7 +247,7 @@ class ApplicationProductsResponse implements ModelInterface, ArrayAccess
     /**
      * Sets products
      *
-     * @param \Boostapp\Model\ProductsDictionary $products products
+     * @param object $products products
      *
      * @return $this
      */

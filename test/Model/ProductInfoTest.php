@@ -96,4 +96,11 @@ class ProductInfoTest extends \PHPUnit_Framework_TestCase
     public function testPropertyPrice()
     {
     }
+
+    /**
+     * Test attribute "discounted_price"
+     */
+    public function testPropertyDiscountedPrice()
+    {
+    }
 }

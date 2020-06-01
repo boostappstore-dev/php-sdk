@@ -33,17 +33,7 @@ namespace Boostapp;
  * LanguageTest Class Doc Comment
  *
  * @category    Class
- * @description Language list.
- * 1: EN
- * 2: TR
- * 3: RU
- * 4: FR
- * 5: JP
- * 6: KO
- * 7: PT
- * 8: DE
- * 9: IT
- * 10: ES
+ * @description Language list.&lt;br&gt;1: EN&lt;br&gt;2: TR&lt;br&gt;3: RU&lt;br&gt;4: FR&lt;br&gt;5: JP&lt;br&gt;6: KO&lt;br&gt;7: PT&lt;br&gt;8: DE&lt;br&gt;9: IT&lt;br&gt;10: ES
  * @package     Boostapp
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen

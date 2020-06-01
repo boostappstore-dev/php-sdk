@@ -33,12 +33,7 @@ namespace Boostapp;
  * InstallFrequencyTest Class Doc Comment
  *
  * @category    Class
- * @description It expresses the time difference between those transactions.
- *
- * 0: NULL value, DO NOT USE!
- * 1: Operations speed up over time
- * 2: Operations accelerate first then slow down
- * 3: Operations continue at constant speed
+ * @description It expresses the time difference between those transactions.&lt;br&gt;&lt;br&gt;0: NULL value, DO NOT USE!&lt;br&gt;1: Operations speed up over time&lt;br&gt;2: Operations accelerate first then slow down&lt;br&gt;3: Operations continue at constant speed
  * @package     Boostapp
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen

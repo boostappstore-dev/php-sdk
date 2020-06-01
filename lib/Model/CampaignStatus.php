@@ -37,8 +37,8 @@ use \Boostapp\ObjectSerializer;
  * @description It specifies the campaign status.
  * 0: Active
  * 1: Finished
- * 2: Under evaluation (Not active)
- * 3: Evaluation finished (Not active)
+ * 2: Review action (Not active)
+ * 3: Review action finished (Not active)
  * 4: Compensating (Disabled)
  * 5: Compensation Finished (Disabled)
  * 6: Stopped
@@ -51,13 +51,13 @@ class CampaignStatus
     /**
      * Possible values of this enum
      */
-    const 0 = 0;
-    const 1 = 1;
-    const 2 = 2;
-    const 3 = 3;
-    const 4 = 4;
-    const 5 = 5;
-    const 6 = 6;
+    const RUNNING = 0;
+    const FINISH = 1;
+    const IN_REVIEW = 2;
+    const FINISH_REVIEW = 3;
+    const IN_COMPENSE = 4;
+    const FINISH_COMPENSE = 5;
+    const STOPPING = 6;
     
     /**
      * Gets allowable values of the enum
@@ -66,13 +66,13 @@ class CampaignStatus
     public static function getAllowableEnumValues()
     {
         return [
-            self::0,
-            self::1,
-            self::2,
-            self::3,
-            self::4,
-            self::5,
-            self::6,
+            self::RUNNING,
+            self::FINISH,
+            self::IN_REVIEW,
+            self::FINISH_REVIEW,
+            self::IN_COMPENSE,
+            self::FINISH_COMPENSE,
+            self::STOPPING,
         ];
     }
 }

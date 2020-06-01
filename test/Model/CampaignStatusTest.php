@@ -33,14 +33,7 @@ namespace Boostapp;
  * CampaignStatusTest Class Doc Comment
  *
  * @category    Class
- * @description It specifies the campaign status.
- * 0: Active
- * 1: Finished
- * 2: Under evaluation (Not active)
- * 3: Evaluation finished (Not active)
- * 4: Compensating (Disabled)
- * 5: Compensation Finished (Disabled)
- * 6: Stopped
+ * @description It specifies the campaign status.&lt;br&gt;0: Active&lt;br&gt;1: Finished&lt;br&gt;2: Review action (Not active)&lt;br&gt;3: Review action finished (Not active)&lt;br&gt;4: Compensating (Disabled)&lt;br&gt;5: Compensation finished (Disabled)&lt;br&gt;6: Stopped
  * @package     Boostapp
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen

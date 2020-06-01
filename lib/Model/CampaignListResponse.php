@@ -45,30 +45,30 @@ class CampaignListResponse implements ModelInterface, ArrayAccess
     const DISCRIMINATOR = null;
 
     /**
-      * The original name of the model.
-      *
-      * @var string
-      */
+     * The original name of the model.
+     *
+     * @var string
+     */
     protected static $swaggerModelName = 'CampaignListResponse';
 
     /**
-      * Array of property to type mappings. Used for (de)serialization
-      *
-      * @var string[]
-      */
+     * Array of property to type mappings. Used for (de)serialization
+     *
+     * @var string[]
+     */
     protected static $swaggerTypes = [
         'status_code' => 'int',
-        'details' => '\Boostapp\Model\CampaignSummary[]'
+        'campaign_list' => '\Boostapp\Model\CampaignSummary[]'
     ];
 
     /**
-      * Array of property to format mappings. Used for (de)serialization
-      *
-      * @var string[]
-      */
+     * Array of property to format mappings. Used for (de)serialization
+     *
+     * @var string[]
+     */
     protected static $swaggerFormats = [
         'status_code' => 'int32',
-        'details' => null
+        'campaign_list' => null
     ];
 
     /**
@@ -99,7 +99,7 @@ class CampaignListResponse implements ModelInterface, ArrayAccess
      */
     protected static $attributeMap = [
         'status_code' => 'statusCode',
-        'details' => 'details'
+        'campaign_list' => 'campaignList'
     ];
 
     /**
@@ -109,7 +109,7 @@ class CampaignListResponse implements ModelInterface, ArrayAccess
      */
     protected static $setters = [
         'status_code' => 'setStatusCode',
-        'details' => 'setDetails'
+        'campaign_list' => 'setCampaignList'
     ];
 
     /**
@@ -119,7 +119,7 @@ class CampaignListResponse implements ModelInterface, ArrayAccess
      */
     protected static $getters = [
         'status_code' => 'getStatusCode',
-        'details' => 'getDetails'
+        'campaign_list' => 'getCampaignList'
     ];
 
     /**
@@ -163,9 +163,9 @@ class CampaignListResponse implements ModelInterface, ArrayAccess
         return self::$swaggerModelName;
     }
 
-    
 
-    
+
+
 
     /**
      * Associative array for storing property values
@@ -183,7 +183,7 @@ class CampaignListResponse implements ModelInterface, ArrayAccess
     public function __construct(array $data = null)
     {
         $this->container['status_code'] = isset($data['status_code']) ? $data['status_code'] : null;
-        $this->container['details'] = isset($data['details']) ? $data['details'] : null;
+        $this->container['campaign_list'] = isset($data['campaign_list']) ? $data['campaign_list'] : null;
     }
 
     /**
@@ -235,25 +235,25 @@ class CampaignListResponse implements ModelInterface, ArrayAccess
     }
 
     /**
-     * Gets details
+     * Gets campaign_list
      *
      * @return \Boostapp\Model\CampaignSummary[]
      */
-    public function getDetails()
+    public function getCampaignList()
     {
-        return $this->container['details'];
+        return $this->container['campaign_list'];
     }
 
     /**
-     * Sets details
+     * Sets campaign_list
      *
-     * @param \Boostapp\Model\CampaignSummary[] $details details
+     * @param \Boostapp\Model\CampaignSummary[] $campaign_list campaign_list
      *
      * @return $this
      */
-    public function setDetails($details)
+    public function setCampaignList($campaign_list)
     {
-        $this->container['details'] = $details;
+        $this->container['campaign_list'] = $campaign_list;
 
         return $this;
     }

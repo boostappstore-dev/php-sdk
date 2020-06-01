@@ -46,22 +46,22 @@ class CampaignCreateRequest implements ModelInterface, ArrayAccess
     const DISCRIMINATOR = null;
 
     /**
-      * The original name of the model.
-      *
-      * @var string
-      */
+     * The original name of the model.
+     *
+     * @var string
+     */
     protected static $swaggerModelName = 'CampaignCreateRequest';
 
     /**
-      * Array of property to type mappings. Used for (de)serialization
-      *
-      * @var string[]
-      */
+     * Array of property to type mappings. Used for (de)serialization
+     *
+     * @var string[]
+     */
     protected static $swaggerTypes = [
         'identifier' => 'string',
         'package_name' => 'string',
         'country_id' => '\Boostapp\Model\Country',
-        'days' => 'map[string,\Boostapp\Model\CampaignDay]',
+        'days' => 'map[string,\Boostapp\Model\CampaignDay[]]',
         'five_star' => 'int',
         'four_star' => 'int',
         'three_star' => 'int',
@@ -72,10 +72,10 @@ class CampaignCreateRequest implements ModelInterface, ArrayAccess
     ];
 
     /**
-      * Array of property to format mappings. Used for (de)serialization
-      *
-      * @var string[]
-      */
+     * Array of property to format mappings. Used for (de)serialization
+     *
+     * @var string[]
+     */
     protected static $swaggerFormats = [
         'identifier' => null,
         'package_name' => null,
@@ -209,9 +209,9 @@ class CampaignCreateRequest implements ModelInterface, ArrayAccess
         return self::$swaggerModelName;
     }
 
-    
 
-    
+
+
 
     /**
      * Associative array for storing property values
@@ -373,7 +373,7 @@ class CampaignCreateRequest implements ModelInterface, ArrayAccess
     /**
      * Gets days
      *
-     * @return map[string,\Boostapp\Model\CampaignDay]
+     * @return map[string,\Boostapp\Model\CampaignDay[]]
      */
     public function getDays()
     {
@@ -383,7 +383,7 @@ class CampaignCreateRequest implements ModelInterface, ArrayAccess
     /**
      * Sets days
      *
-     * @param map[string,\Boostapp\Model\CampaignDay] $days It is a dictionary type model where operations are separated day by day. The format is {'The day number'=>'content'}.<br>**Important: The value 0 is today, the value 1 is tomorrow. It can take a value between 0 and 6 (inclusive). If we assume today as the 1st day, the value 6 must be defined for the 7th day.<br>There should be no space between days. <br>0, 3, 4 [WRONG]<br>0, 1, 2, 3, 4 [TRUE]**
+     * @param map[string,\Boostapp\Model\CampaignDay[]] $days It is a dictionary type model where operations are separated day by day. The format is {'The day number'=>'content'}.<br>**Important: The value 0 is today, the value 1 is tomorrow. It can take a value between 0 and 6 (inclusive). If we assume today as the 1st day, the value 6 must be defined for the 7th day.<br>There should be no space between days. <br>0, 3, 4 [WRONG]<br>0, 1, 2, 3, 4 [TRUE]**
      *
      * @return $this
      */

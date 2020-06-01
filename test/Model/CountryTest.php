@@ -33,23 +33,7 @@ namespace Boostapp;
  * CountryTest Class Doc Comment
  *
  * @category    Class
- * @description Country list.
- * 1: US
- * 2: TR
- * 3: RU
- * 4: IN
- * 5: GB
- * 6: FR
- * 7: AU
- * 8: JP
- * 9: KR
- * 10: BR
- * 11: DE
- * 12: CA
- * 13: ES
- * 14: PT
- * 15: IT
- * 16: NG
+ * @description Country list.&lt;br&gt;1: US&lt;br&gt;2: TR&lt;br&gt;3: RU&lt;br&gt;4: IN&lt;br&gt;5: GB&lt;br&gt;6: FR&lt;br&gt;7: AU&lt;br&gt;8: JP&lt;br&gt;9: KR&lt;br&gt;10: BR&lt;br&gt;11: DE&lt;br&gt;12: CA&lt;br&gt;13: ES&lt;br&gt;14: PT&lt;br&gt;15: IT&lt;br&gt;16: NG
  * @package     Boostapp
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen

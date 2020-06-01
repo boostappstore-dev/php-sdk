@@ -84,9 +84,9 @@ class CampaignListResponseTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Test attribute "details"
+     * Test attribute "campaign_list"
      */
-    public function testPropertyDetails()
+    public function testPropertyCampaignList()
     {
     }
 }
